@@ -1,0 +1,68 @@
+2025-11-01T21:00:01Z sshd[12345]: Failed password for invalid user admin from 192.168.1.100 port 52834 ssh2
+2025-11-01T21:00:03Z sshd[12346]: Failed password for invalid user root from 192.168.1.100 port 52835 ssh2
+2025-11-01T21:00:05Z sshd[12347]: Accepted password for validuser from 192.168.1.150 port 51234 ssh2
+2025-11-01T21:00:10Z kernel: Port scan detected from 203.0.113.5
+2025-11-01T21:00:12Z nginx: 203.0.113.5 - - [01/Nov/2025:21:00:12 +0000] "GET /index.php?id=1' OR '1'='1 HTTP/1.1" 200 512 "-" "Mozilla/5.0"  # SQL Injection attempt
+2025-11-01T21:00:15Z sshd[12348]: Failed password for invalid user test from 192.168.1.101 port 52001 ssh2
+2025-11-01T21:00:20Z firewall: DDoS alert: SYN flood from 198.51.100.10 port 80
+2025-11-01T21:00:22Z httpd: 198.51.100.10 - - [01/Nov/2025:21:00:22 +0000] "POST /login HTTP/1.1" 503 0 "-" "botnet-crawler"
+2025-11-01T21:00:25Z sshd[12349]: Failed password for invalid user guest from 192.168.1.102 port 53021 ssh2
+2025-11-01T21:00:30Z sshd[12350]: Failed password for invalid user admin from 192.168.1.103 port 54011 ssh2
+2025-11-01T21:00:33Z sshd[12351]: Accepted password for validuser from 192.168.1.150 port 51236 ssh2
+2025-11-01T21:00:40Z nginx: 198.51.100.25 - - [01/Nov/2025:21:00:40 +0000] "GET /wp-login.php HTTP/1.1" 404 150 "-" "Mozilla/5.0"  # Brute force attack on WordPress login
+2025-11-01T21:00:45Z firewall: DDoS alert: UDP flood from 198.51.100.11 port 53
+2025-11-01T21:00:50Z sshd[12352]: Failed password for invalid user root from 192.168.1.104 port 55031 ssh2
+2025-11-01T21:00:53Z sshd[12353]: Failed password for invalid user admin from 192.168.1.105 port 56021 ssh2
+2025-11-01T21:01:00Z kernel: Port scan detected from 203.0.113.8
+2025-11-01T21:01:05Z nginx: 203.0.113.8 - - [01/Nov/2025:21:01:05 +0000] "GET /search.php?query=' UNION SELECT password FROM users -- HTTP/1.1" 200 520 "-" "Mozilla/5.0"
+2025-11-01T21:01:10Z sshd[12354]: Failed password for invalid user test from 192.168.1.106 port 57001 ssh2
+2025-11-01T21:01:15Z firewall: DDoS alert: SYN flood from 198.51.100.12 port 443
+2025-11-01T21:01:20Z httpd: 198.51.100.12 - - [01/Nov/2025:21:01:20 +0000] "GET /api/data HTTP/1.1" 503 0 "-" "botnet-crawler"
+2025-11-01T21:01:25Z sshd[12355]: Failed password for invalid user guest from 192.168.1.107 port 58021 ssh2
+2025-11-01T21:01:30Z sshd[12356]: Failed password for invalid user admin from 192.168.1.108 port 59011 ssh2
+2025-11-01T21:01:33Z sshd[12357]: Accepted password for validuser from 192.168.1.150 port 51238 ssh2
+2025-11-01T21:01:40Z nginx: 198.51.100.26 - - [01/Nov/2025:21:01:40 +0000] "POST /wp-login.php HTTP/1.1" 404 150 "-" "Mozilla/5.0"
+2025-11-01T21:01:45Z firewall: DDoS alert: UDP flood from 198.51.100.13 port 123
+2025-11-01T21:01:50Z sshd[12358]: Failed password for invalid user root from 192.168.1.109 port 60031 ssh2
+2025-11-01T21:01:53Z sshd[12359]: Failed password for invalid user admin from 192.168.1.110 port 61021 ssh2
+2025-11-01T21:02:00Z kernel: Port scan detected from 203.0.113.9
+2025-11-01T21:02:05Z nginx: 203.0.113.9 - - [01/Nov/2025:21:02:05 +0000] "GET /login.php?user=admin'-- HTTP/1.1" 200 510 "-" "Mozilla/5.0"  # SQL Injection
+2025-11-01T21:02:10Z sshd[12360]: Failed password for invalid user test from 192.168.1.111 port 62001 ssh2
+2025-11-01T21:02:15Z firewall: DDoS alert: SYN flood from 198.51.100.14 port 8080
+2025-11-01T21:02:20Z httpd: 198.51.100.14 - - [01/Nov/2025:21:02:20 +0000] "GET /api/v1/data HTTP/1.1" 503 0 "-" "botnet-crawler"
+2025-11-01T21:02:25Z sshd[12361]: Failed password for invalid user guest from 192.168.1.112 port 63021 ssh2
+2025-11-01T21:02:30Z sshd[12362]: Failed password for invalid user admin from 192.168.1.113 port 64011 ssh2
+2025-11-01T21:02:33Z sshd[12363]: Accepted password for validuser from 192.168.1.150 port 51240 ssh2
+2025-11-01T21:02:40Z nginx: 198.51.100.27 - - [01/Nov/2025:21:02:40 +0000] "POST /wp-login.php HTTP/1.1" 404 150 "-" "Mozilla/5.0"
+2025-11-01T21:02:45Z firewall: DDoS alert: UDP flood from 198.51.100.15 port 321
+2025-11-01T21:02:50Z sshd[12364]: Failed password for invalid user root from 192.168.1.114 port 65031 ssh2
+2025-11-01T21:02:53Z sshd[12365]: Failed password for invalid user admin from 192.168.1.115 port 66021 ssh2
+2025-11-01T21:03:00Z kernel: Port scan detected from 203.0.113.10
+2025-11-01T21:03:05Z nginx: 203.0.113.10 - - [01/Nov/2025:21:03:05 +0000] "GET /search.php?query=' UNION SELECT username, password FROM users -- HTTP/1.1" 200 520 "-" "Mozilla/5.0"
+2025-11-01T21:03:10Z sshd[12366]: Failed password for invalid user test from 192.168.1.116 port 67001 ssh2
+2025-11-01T21:03:15Z firewall: DDoS alert: SYN flood from 198.51.100.16 port 9090
+2025-11-01T21:03:20Z httpd: 198.51.100.16 - - [01/Nov/2025:21:03:20 +0000] "GET /api/v2/data HTTP/1.1" 503 0 "-" "botnet-crawler"
+2025-11-01T21:03:25Z sshd[12367]: Failed password for invalid user guest from 192.168.1.117 port 68021 ssh2
+2025-11-01T21:03:30Z sshd[12368]: Failed password for invalid user admin from 192.168.1.118 port 69011 ssh2
+2025-11-01T21:03:33Z sshd[12369]: Accepted password for validuser from 192.168.1.150 port 51242 ssh2
+2025-11-01T21:03:40Z nginx: 198.51.100.28 - - [01/Nov/2025:21:03:40 +0000] "POST /wp-login.php HTTP/1.1" 404 150 "-" "Mozilla/5.0"
+2025-11-01T21:03:45Z firewall: DDoS alert: UDP flood from 198.51.100.17 port 456
+2025-11-01T21:03:50Z sshd[12370]: Failed password for invalid user root from 192.168.1.119 port 70031 ssh2
+2025-11-01T21:03:53Z sshd[12371]: Failed password for invalid user admin from 192.168.1.120 port 71021 ssh2
+2025-11-01T21:04:00Z kernel: Port scan detected from 203.0.113.11
+2025-11-01T21:04:05Z nginx: 203.0.113.11 - - [01/Nov/2025:21:04:05 +0000] "GET /login.php?user=admin'-- HTTP/1.1" 200 510 "-" "Mozilla/5.0"
+2025-11-01T21:04:10Z sshd[12372]: Failed password for invalid user test from 192.168.1.121 port 72001 ssh2
+2025-11-01T21:04:15Z firewall: DDoS alert: SYN flood from 198.51.100.18 port 7070
+2025-11-01T21:04:20Z httpd: 198.51.100.18 - - [01/Nov/2025:21:04:20 +0000] "GET /api/v3/data HTTP/1.1" 503 0 "-" "botnet-crawler"
+2025-11-01T21:04:25Z sshd[12373]: Failed password for invalid user guest from 192.168.1.122 port 73021 ssh2
+2025-11-01T21:04:30Z sshd[12374]: Failed password for invalid user admin from 192.168.1.123 port 74011 ssh2
+2025-11-01T21:04:33Z sshd[12375]: Accepted password for validuser from 192.168.1.150 port 51244 ssh2
+2025-11-01T21:04:40Z nginx: 198.51.100.29 - - [01/Nov/2025:21:04:40 +0000] "POST /wp-login.php HTTP/1.1" 404 150 "-" "Mozilla/5.0"
+2025-11-01T21:04:45Z firewall: DDoS alert: UDP flood from 198.51.100.19 port 789
+2025-11-01T21:04:50Z sshd[12376]: Failed password for invalid user root from 192.168.1.124 port 75031 ssh2
+2025-11-01T21:04:53Z sshd[12377]: Failed password for invalid user admin from 192.168.1.125 port 76021 ssh2
+2025-11-01T21:05:00Z kernel: Port scan detected from 203.0.113.12
+2025-11-01T21:05:05Z nginx: 203.0.113.12 - - [01/Nov/2025:21:05:05 +0000] "GET /search.php?query=' UNION SELECT password FROM users -- HTTP/1.1" 200 520 "-" "Mozilla/5.0"
+2025-11-01T21:05:10Z sshd[12378]: Failed password for invalid user test from 192.168.1.126 port 77001 ssh2
+2025-11-01T21:05:15Z firewall: DDoS alert: SYN flood from 198.51.100.20 port 6060
+2025-11-01T21:05:20Z httpd: 198.51.100.20 - - [01/Nov/2025:21:05:20 +0000] "GET /api/v4/data HTTP/1.1" 503 0 "-" "botnet-crawler"
